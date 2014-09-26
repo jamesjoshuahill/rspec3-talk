@@ -4,7 +4,7 @@ RSpec.describe "Test spies" do
 
   it "requests data from the API" do
     # Arrange
-    api_client = spy("ApiClient")
+    api_client = instance_double("ApiClient").as_null_object
     app = App.new(api_client)
 
     # Act
