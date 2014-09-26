@@ -11,7 +11,11 @@ end
 #################################################
 
 class ApiClient
-  def request(method, path, body = nil)
-    ###
+  # def request(method, path, body = nil)
+  #   ###
+  # end
+
+  def get(path)
+
   end
 end
