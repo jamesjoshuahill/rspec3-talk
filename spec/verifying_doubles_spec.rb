@@ -6,8 +6,8 @@ RSpec.describe "Verifying doubles" do
     api_client = instance_double("ApiClient")
     app = App.new(api_client)
 
-    expect(api_client).to receive(:request)
-      .with(:get, "/path/to/data")
+    expect(api_client).to receive(:get)
+      .with("/path/to/data")
 
     app.data
   end

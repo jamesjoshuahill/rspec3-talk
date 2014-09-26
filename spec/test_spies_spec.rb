@@ -11,8 +11,8 @@ RSpec.describe "Test spies" do
     app.data
 
     # Assert
-    expect(api_client).to have_received(:request)
-      .with(:get, "/path/to/data")
+    expect(api_client).to have_received(:get)
+      .with("/path/to/data")
   end
 
 end

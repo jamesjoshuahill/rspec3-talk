@@ -4,7 +4,7 @@ class App
   end
 
   def data
-    @api_client.request(:get, "/path/to/data")
+    @api_client.get("/path/to/data")
   end
 end
 
