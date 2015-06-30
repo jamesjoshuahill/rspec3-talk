@@ -2,7 +2,7 @@
 
 In my second tech talk at [globaldev] I demonstrated some new features in RSpec 3 that could improve your specs: verifying doubles, composable matchers and test spies.
 
-For the slides and video please visit my [blog]. You can review the [commit history] manually, or follow these steps:
+For the slides and video please visit my [blog]. You can review the [commit history] manually, or follow the steps to see verifying doubles in action:
 
 1. [Set up examples for talk].
 2. [Make a breaking change]. Note: the specs still pass because they use normal doubles.
